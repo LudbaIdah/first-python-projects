@@ -11,7 +11,7 @@ def run_battle(health_potion_amount, enemy_attack_power,enemy_health = 150, play
             query = input(f"Round {round_no}, what would you like to do: press 1 for health potion, press 0 for attack: ")
             print("")
 
-        if query == "1":
+        if query == "1": # Health Potions
             if health_potion_amount <= 0:
                 print("No more potions left, enemys turn now!")
                 print("")
@@ -24,7 +24,7 @@ def run_battle(health_potion_amount, enemy_attack_power,enemy_health = 150, play
                 print("")
                 health_potion_amount -= 1
 
-        else:
+        else: # Player Attacks
             player_attack_power = int(input("Choose your attack power (1-10): "))
 
             if player_attack_power >10 or player_attack_power <1:
@@ -42,7 +42,7 @@ def run_battle(health_potion_amount, enemy_attack_power,enemy_health = 150, play
                     break
 
         
-        player_health -= enemy_attack_power
+        player_health -= enemy_attack_power #Enemy Counter-attacks
         if player_health >= 20:
             print("Oh no, you've got hit!")
             print(f"Your health is {player_health} now!")
@@ -55,5 +55,5 @@ def run_battle(health_potion_amount, enemy_attack_power,enemy_health = 150, play
             print("")
             break
 
-enemy_power = 5
+enemy_power = 5 # You can choose enemy power to make the game harder/easier.
 run_battle(5,enemy_power)
