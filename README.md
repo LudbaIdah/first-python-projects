@@ -6,4 +6,6 @@ This repository contains my code scripts built during my IGCSEs.
 - It uses while loops, and functions.
 - I made it to practice basic conditional statements.
 
-## 2. Physics Uniform 
+## 2. Physics SUVAT Calculator
+- It uses while loops and conditional if-else statements.
+- It calculates initial velocity, final velocity, acceleration, displacement, and time.
