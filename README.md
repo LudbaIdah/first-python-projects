@@ -9,3 +9,8 @@ This repository contains my code scripts built during my IGCSEs.
 ## 2. Physics SUVAT Calculator
 - It uses while loops and conditional if-else statements.
 - It calculates initial velocity, final velocity, acceleration, displacement, and time.
+
+## 3. University Cost & Scholarship Planner
+
+- It calculates and compares monthly university tuition, rent, and transport costs across two scholarship discount scenarios.
+- Uses `while` loops for input validation, string slicing and `.upper()` to generate a custom Student ID.
